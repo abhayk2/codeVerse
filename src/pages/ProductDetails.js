@@ -39,14 +39,7 @@ export const ProductDetails = () => {
     }
   }, [cartList, product.id]);
 
-  function handleClick(product) {
-    addToCart(product);
-    if (inCart) {
-      removeFromCart(product);
-    } else {
-      addToCart(product);
-    }
-  }
+ 
 
   return (
     <main>

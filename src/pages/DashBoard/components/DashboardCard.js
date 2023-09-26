@@ -18,7 +18,7 @@ export const DashboardCard = ({order}) => {
                               <p className="text-lg ml-2 dark:text-slate-200">{product.name}</p>
                           </Link>
                           <div className="text-lg m-2 dark:text-slate-200">
-                              <span>$29</span>
+                              <span>${product.price}</span>
                           </div>
                       </div>
                   </div>
